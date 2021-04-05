@@ -1,15 +1,15 @@
 # flask-bbox
 
 #### Start
-pip install Flask
+pip3 install Flask
 
-pip install cv2
+pip3 install opencv-python
 
-pip install pdfminer
+pip3 install pdfminer
 
-pip install pdf2image
+pip3 install pdf2image
 
-pip install Werkzeug
+pip3 install Werkzeug
 
 set FLASK_APP=app
 
