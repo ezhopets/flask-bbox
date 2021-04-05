@@ -1,22 +1,37 @@
 # flask-bbox
 
 #### Start
-pip3 install Flask
+```bash
+$ pip3 install flask
+```
 
-pip3 install opencv-python
+```bash
+$ pip3 install opencv-python
+```
 
-pip3 install pdfminer
+```bash
+$ pip3 install pdfminer
+```
 
-pip3 install pdf2image
+```bash
+$ pip3 install pdf2image
+```
 
-pip3 install Werkzeug
+```bash
+$ pip3 install Werkzeug
+```
 
-set FLASK_APP=app
+```bash
+$ set FLASK_APP=app
+```
 
-flask run
-
+```bash
+$ flask run
+```
 or
 
-flask run --host=0.0.0.0
+```bash
+$ flask run --host=0.0.0.0
+```
 
 http://127.0.0.1:5000/
