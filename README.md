@@ -1,5 +1,6 @@
 ## Description
-This is the python flask application, which takes pdf file with text layer as an input and outputs an archive with images. On each image every line within bbox.
+This is the python flask application, which takes pdf file with text layer as
+an input and produces an archive with images. On each image every line is within bbox.
 All bbox coordinates are taken from text layer, so if the user wants to have great result he should download pdf with "good" text layer.
 This application accepts files only with the pdf extension.
 
@@ -23,7 +24,7 @@ docker build -t flask_bbox:latest .
 #### Run the container:
 
 ```bash
-docker run -p 8080:5000 docker_flask_bbox:latest
+docker run -p 8080:5000 flask_bbox:latest
 ```
 
 Then open http://localhost:8080 in your browser to check.

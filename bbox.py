@@ -65,6 +65,8 @@ def bbox(filename, PPM_DIR, IMAGES_DIR, UPLOAD_DIR):
     try:
         pages = convert_from_path(filename, dpi=72, output_folder=PPM_DIR)
     except:
+        remove_dir(IMAGES_DIR)
+        remove_dir(PPM_DIR)
         return None
 
     fp = open(filename, 'rb')
